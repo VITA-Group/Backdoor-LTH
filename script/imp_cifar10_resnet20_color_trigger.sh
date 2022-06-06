@@ -1,0 +1,11 @@
+python -u main_imp.py \
+    --poison_ratio 0.01 \
+    --upper_right \
+	--data $1 \
+    --dataset cifar10 \
+    --arch resnet20 \
+	--seed 7 \
+	--save_dir IMP_c10_res20s_rewind3_color_trigger \
+	--prune_type rewind_lt \
+	--rewind_epoch 3 \
+	--pruning_times 50 

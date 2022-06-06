@@ -1,0 +1,17 @@
+python -u test_linearmode.py \
+    --poison_ratio 0.01 \
+    --patch_size 5 \
+    --upper_right \
+    --target 0 \
+    --data $1 \
+    --dataset cifar10 \
+    --input_size 32 \
+    --rate 0.2 \
+    --arch resnet20 \
+    --seed 7 \
+    --batch_size 128 \
+    --batch_num 8 \
+    --pretrained_dir $2 \
+    --max 49 \
+    --finetune_iter 20 \
+    --save_file NEW_LMC_c10_res20_color.pt
