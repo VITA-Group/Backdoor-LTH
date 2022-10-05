@@ -52,7 +52,7 @@ bash script/reverse_trigger_cifar10_resnet20.sh [data-path] [model-file]
 
 **CIFAR-10, ResNet-20, RGB trigger:** Pretrained_model/cifar10_res20_rgb_trigger
 
-More models will coming soon...
+More models are coming soon...
 
 
 
